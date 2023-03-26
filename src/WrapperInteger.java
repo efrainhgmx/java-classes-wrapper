@@ -9,6 +9,9 @@ public class WrapperInteger {
 
         //Tener cuidado porque lo siguiente puede tener perdida de información
         short shortNumber = age.shortValue();
+        byte byteNumber = age.byteValue();
+
+        System.out.println(byteNumber);
 
     }
 }
