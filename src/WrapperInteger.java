@@ -20,6 +20,11 @@ public class WrapperInteger {
         Integer d = 20;
 
         System.out.println(a == b); //true
+        //Este valor es true siempre y cuando el valor no sea mayor a 127
         System.out.println(c == d); //false
+
+        //Forma correcta de comparar
+        System.out.println(c.equals(d));
+        System.out.println(c.intValue() == d.intValue());
     }
 }
