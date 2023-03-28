@@ -13,5 +13,11 @@ public class WrapperInteger {
 
         System.out.println(byteNumber);
 
+        //Comparar primitivos y Wrapper
+        int a = 10;
+        int b = 10;
+        Integer c = 20;
+        Integer d = 20;
+
     }
 }
