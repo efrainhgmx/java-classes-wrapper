@@ -19,5 +19,7 @@ public class WrapperInteger {
         Integer c = 20;
         Integer d = 20;
 
+        System.out.println(a == b); //true
+        System.out.println(c == d); //false
     }
 }
