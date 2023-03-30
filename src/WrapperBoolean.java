@@ -9,6 +9,16 @@ public class WrapperBoolean {
 
         System.out.println("esTrue = " + esTrue);
         System.out.println("activoWrapper = " + activoWrapper);
+        
+        //getClass nos permite ver como es que está construida la clase
+        
+        Integer num = 25;
+        Class intClass = num.getClass();
+
+        System.out.println("intClass.getName() = " + intClass.getName());
+        System.out.println("intClass.getName() = " + intClass.getPackage().getName());
+        System.out.println("intClass.getName() = " + intClass.getSuperclass().getName());
+        System.out.println("intClass.getName() = " + intClass.getSuperclass().getSuperclass().getName());
 
     }
 }
