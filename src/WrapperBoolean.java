@@ -4,8 +4,11 @@ public class WrapperBoolean {
         boolean activo =  1 < 2;
 
         //La manera de generarlo es con valueOf
-        Boolean activoWraaper = Boolean.valueOf("true");
+        Boolean activoWrapper = Boolean.valueOf("true");
         Boolean esTrue = Boolean.valueOf(10 == 10);
+
+        System.out.println("esTrue = " + esTrue);
+        System.out.println("activoWrapper = " + activoWrapper);
 
     }
 }
