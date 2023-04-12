@@ -22,6 +22,9 @@ public class DateInJava {
         //martes 11/abril/23 hora:  10:25:13
         SimpleDateFormat formato = new SimpleDateFormat("EEEE dd/MMMM/yy 'hora: ' hh:mm:ss");
 
+        //Get time devuelve el tiempo transcurrido en milisegundos desde Enero 1 de 1970
+        System.out.println(" Get time= " +  fechaActual.getTime());
+
 
 
         String formatDate = formato.format(fechaActual);
