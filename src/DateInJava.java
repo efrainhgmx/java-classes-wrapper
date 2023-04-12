@@ -1,3 +1,4 @@
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class DateInJava {
@@ -6,5 +7,13 @@ public class DateInJava {
 
         //Forma de instanciar
         Date fechaActual = new Date();
+
+        System.out.println("fechaActual = " + fechaActual);
+
+        //Geenera un formato para la fecha
+        SimpleDateFormat formato = new SimpleDateFormat("dd/MMMM/yyyy");
+
+        String formatDate = formato.format(fechaActual);
+        System.out.println("fechaFormato = " + formatDate);
     }
 }
