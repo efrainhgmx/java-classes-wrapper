@@ -15,7 +15,8 @@ public class CalendarExample {
         SimpleDateFormat formatDate = new SimpleDateFormat("dd/MM/yyyy");
         try {
             Date fecha = formatDate.parse("25/07/1995");
-            System.out.println(fecha);
+            String fechaActual = fecha.toString();
+            System.out.println("Fecha: ".concat(fechaActual));
         } catch (ParseException e) {
             throw new RuntimeException(e);
         }
