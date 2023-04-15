@@ -1,4 +1,5 @@
 import java.io.FileInputStream;
+import java.util.Map;
 import java.util.Properties;
 
 public class ReadFromCustomProperties {
@@ -17,5 +18,9 @@ public class ReadFromCustomProperties {
         } catch (Exception e) {
             throw new RuntimeException(e.getCause());
         }
+
+        //Variables de entorno
+        Map<String, String> envVar = System.getenv();
+        System.out.println("envVar = " + envVar);
     }
 }
