@@ -9,7 +9,9 @@ public class EjecutarProgramaSO {
         Process process;
         //Evalua el sistema operativo
         try {
+            //linux o nix -> mac
             if(System.getProperty("os.name").startsWith("Windows")) {
+                //Abre el note pad o bloc de notas
                 process = rt.exec("notepad");
             } else {
                 process =  rt.exec("gedit");
