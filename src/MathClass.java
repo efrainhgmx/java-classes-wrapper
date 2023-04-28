@@ -13,5 +13,31 @@ public class MathClass {
         double roundDown = Math.floor(2.1);
 
         double round = Math.round(4.75);
+
+        //2.718281...
+        double exp = Math.exp(1);
+
+        //Logaritmo Natural
+        double log = Math.log(10);
+
+        //Calcular potencia 5 a la 3
+        double potencia = Math.pow(5,3);
+
+        //Raiz cuadrada de 5
+        double raiz = Math.sqrt(5);
+
+        //FUNCIONES TRIGONOMÉTRICAS
+
+        //De radianes a grados
+        double grados = Math.toDegrees(1.57); //90°
+
+        //De grados a radianes
+        double radianes = Math.toRadians(90d); //1.57...
+
+        //Seno SIMPRE EN RADIANES
+        double seno90 = Math.sin(radianes);
+        double coseno90 = Math.cos(radianes);
+
+
     }
 }
