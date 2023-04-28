@@ -21,5 +21,8 @@ public class SystemProperties {
 
         //Muestra code para saber si es un error puede ser 1 o -1
         System.exit(-1);
+
+        //Llama al garbage collector de manera explicita
+        System.gc();
     }
 }
