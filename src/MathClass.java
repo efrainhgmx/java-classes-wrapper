@@ -39,5 +39,19 @@ public class MathClass {
         double coseno90 = Math.cos(radianes);
 
 
+        //RANDOM
+        double random = Math.random();
+
+        //Regresa un valor aleatorio entre el 0 y el 7;
+        random *= 7;
+
+        String[] colores = {"rojo", "verde", "azul", "amarillo"};
+
+        double colorAlaeatorio = Math.random();
+        colorAlaeatorio *= colores.length;
+        //Excluye el indice 4 para que sean solo valores del 0 a 3
+        colorAlaeatorio = Math.floor(colorAlaeatorio);
+
+
     }
 }
