@@ -15,5 +15,11 @@ public class SystemProperties {
         Properties myProperties = System.getProperties();
 
         myProperties.list(System.out);
+
+        //Ideal para mostrar errores
+        System.err.println("Mensaje de error");
+
+        //Muestra code para saber si es un error puede ser 1 o -1
+        System.exit(-1);
     }
 }
