@@ -1,3 +1,5 @@
+import java.util.Random;
+
 public class MathClass {
     public static void main(String[] args) {
         //Calcular valor absoluto e un numero
@@ -51,6 +53,17 @@ public class MathClass {
         colorAlaeatorio *= colores.length;
         //Excluye el indice 4 para que sean solo valores del 0 a 3
         colorAlaeatorio = Math.floor(colorAlaeatorio);
+
+        Random randomInstance = new Random();
+
+        //Devuelve un numero aleatorio entre -2 ala 32 y lo mismo positivo
+        int randomInt = randomInstance.nextInt();
+
+        //Genera un numero entre 0 y 10 pero nunca llega a 10 hay que sumar 1 para que sea 10
+        randomInt = randomInstance.nextInt(10);
+
+        //Genera un numero entre 15 y 24 habria que sumar 1 para tomar hasta el 25
+        randomInt = 15 + randomInstance.nextInt(25 - 15);
 
 
     }
