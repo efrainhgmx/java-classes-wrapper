@@ -10,5 +10,11 @@ public class Arreglos {
         for (int numero : numeros) {
             System.out.println("numero = " + numero);
         }
+
+        char[] letters = {'A', 'B', 'C' , 'D'};
+
+        for(int i = 0; i < letters.length; i++) {
+            System.out.println("Letters = " + letters[i]);
+        }
     }
 }
