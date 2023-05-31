@@ -42,5 +42,15 @@ public class Arreglos {
              precios) {
             System.out.println("precio = " + precio);
         }
+
+        String nombre, apellido, profesion;
+        nombre = users[0];
+        apellido = "Perez";
+        profesion = "Desarrollador";
+
+
+        System.out.println("nombre = " + nombre);
+        System.out.println("apellido = " + apellido);
+        System.out.println("profesion = " + profesion);
     }
 }
