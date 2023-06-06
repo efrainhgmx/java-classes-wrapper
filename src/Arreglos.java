@@ -2,8 +2,12 @@ import java.util.Arrays;
 
 public class Arreglos {
     public static void main(String[] args) {
-        // La manera más facil simple de crear una arreglo
 
+
+        /**
+         * ?La manera más facil simple de crear una arreglo
+         *
+         * */
         int[] numeros =  new int[4];
         numeros[0] = 10;
         numeros[1] = 20;
@@ -21,7 +25,10 @@ public class Arreglos {
         }
         
         
-        //Ordenar arreglos
+        /**
+         * *Ordernar  arreglos usando sort
+         *
+         * */
         String[] users = {"Carlos", "Maria", "Angela"};
         Arrays.sort(users);
 
