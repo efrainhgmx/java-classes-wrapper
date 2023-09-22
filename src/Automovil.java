@@ -4,5 +4,9 @@ public class Automovil {
     String fabricante;
     String modelo;
     String color;
-    double precio;
+    double precio = 125_000;
+
+    public void seePrice() {
+        System.out.println("Precio = " + precio);
+    }
 }
