@@ -7,6 +7,18 @@ public class Automovil {
     private final static double precio = 125_000;
 
 
+    public double getPrice() {
+        return this.precio;
+    }
+
+    public String getFabricante() {
+        return this.fabricante;
+    }
+
+    public void setFabricante(String fabricante) {
+        this.fabricante = fabricante;
+    }
+
 
     public void seePrice() {
         System.out.println("Precio = " + precio);
