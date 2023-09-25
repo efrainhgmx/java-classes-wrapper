@@ -1,10 +1,12 @@
 public class Automovil {
     //* Propiedades o atributos de la clase Automovil
-    String marca;
-    String fabricante;
-    String modelo;
-    String color;
-    double precio = 125_000;
+    private String fabricante;
+    private String modelo;
+    private String marca;
+    private String color;
+    private final static double precio = 125_000;
+
+
 
     public void seePrice() {
         System.out.println("Precio = " + precio);
