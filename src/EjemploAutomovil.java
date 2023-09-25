@@ -8,5 +8,6 @@ public class EjemploAutomovil {
         auto.precio = 250_000;
         System.out.println("auto.precio = " + auto.precio);
 
+        System.out.println(auto.velocidad(auto.fabricante));
     }
 }

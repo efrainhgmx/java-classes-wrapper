@@ -9,4 +9,8 @@ public class Automovil {
     public void seePrice() {
         System.out.println("Precio = " + precio);
     }
+
+    public String velocidad(String marca) {
+        return marca + " " + "320km/h";
+    }
 }
