@@ -37,4 +37,10 @@ public class Automovil {
     public String velocidad(String marca) {
         return marca + " " + "320km/h";
     }
+
+    //*Sobre escribe el metodo de la clase padre
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
 }
