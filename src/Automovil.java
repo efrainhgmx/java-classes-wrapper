@@ -11,6 +11,11 @@ public class Automovil {
         this.modelo = modelo;
     }
 
+    public Automovil(String modelo, String color) {
+        this(modelo);
+        this.color = color;
+    }
+
 
     public double getPrice() {
         return precio;
