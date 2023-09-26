@@ -13,7 +13,7 @@ public class Automovil {
 
 
     public double getPrice() {
-        return this.precio;
+        return precio;
     }
 
     public String getFabricante() {
