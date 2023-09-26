@@ -6,6 +6,11 @@ public class Automovil {
     private String color;
     private final static double precio = 125_000;
 
+    //*Constructor
+    public Automovil(String modelo){
+        this.modelo = modelo;
+    }
+
 
     public double getPrice() {
         return this.precio;

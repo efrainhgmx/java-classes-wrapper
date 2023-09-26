@@ -1,6 +1,6 @@
 public class EjemploAutomovil {
     public static void main(String[] args) {
-        Automovil auto = new Automovil();
+        Automovil auto = new Automovil("2025");
         System.out.println("auto.fabricante = " + auto.getFabricante());
         auto.setFabricante("Nissan");
         System.out.println("auto.fabricante = " + auto.getFabricante());
