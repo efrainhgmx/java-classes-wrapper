@@ -3,7 +3,7 @@ public class Automovil {
     private String fabricante;
     private String modelo;
     private String marca;
-    private String color;
+    private Color color;
     private final static double precio = 125_000;
 
     //*Constructor
@@ -11,7 +11,7 @@ public class Automovil {
         this.modelo = modelo;
     }
 
-    public Automovil(String modelo, String color) {
+    public Automovil(String modelo, Color color) {
         this(modelo);
         this.color = color;
     }
