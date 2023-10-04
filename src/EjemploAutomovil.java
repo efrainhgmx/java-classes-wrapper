@@ -7,7 +7,8 @@ public class EjemploAutomovil {
         System.out.println("auto.precio = " + auto.getPrice());
         System.out.println(auto.velocidad(auto.getFabricante()));
 
-        Automovil auto2 = new Automovil("2025", "verde");
+        Automovil auto2 = new Automovil("2025", Color.VERDE);
         System.out.println("Auto dos y auto uno = " + auto2.equals(auto));
+        System.out.println("Color " + auto2.getColor());
     }
 }

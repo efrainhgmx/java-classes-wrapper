@@ -3,6 +3,15 @@ public class Automovil {
     private String fabricante;
     private String modelo;
     private String marca;
+
+    public Color getColor() {
+        return color;
+    }
+
+    public void setColor(Color color) {
+        this.color = color;
+    }
+
     private Color color;
     private final static double precio = 125_000;
 
@@ -13,7 +22,7 @@ public class Automovil {
 
     public Automovil(String modelo, Color color) {
         this(modelo);
-        this.color = color;
+        setColor(color);
     }
 
 
